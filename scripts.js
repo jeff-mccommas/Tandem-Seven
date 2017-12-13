@@ -20,7 +20,6 @@ fetch(url)
 		let flights = data.results;
 		return flights.map(function (flight) {
 			let ul = createNode('ul'),
-			 let li = createNode('li'),
 				span = createNode('span');
 			span.innerHTML = `${flight.fleight_number} ${flight.launch_year}`;
 			append(li, span);
