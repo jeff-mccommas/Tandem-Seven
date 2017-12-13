@@ -8,9 +8,6 @@ function append(parent, el) {
 	return parent.appendChild(el);
 }
 
-const flights = {
-	fleight: 'flight_number'
-}
 /// created a fetch function to map data
 const ul = document.getElementById('flights');
 const url = 'https://api.spacexdata.com/v2/launches';
