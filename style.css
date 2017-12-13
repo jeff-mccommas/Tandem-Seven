@@ -12,9 +12,14 @@ h1 {
 
 span {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #5a5a5a;
+    font-size: 22px;
+    color: #212121;
     text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
 }
 ul{
     list-style: none;
