@@ -27,6 +27,7 @@ li {
     flex-direction: column;
     margin-bottom: 20px;
     align-items:center;
+    min-height: 100px
 }
 
 span {
@@ -34,4 +35,7 @@ span {
     font-size: 14px;
     color: #5a5a5a;
     text-align: center;
+}
+img {
+    width: 70px;
 }
